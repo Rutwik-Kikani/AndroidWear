@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Relative xmlns:android="http://schemas.android.com/apk/res/android"
-    Layout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+   android:layout_height="wrap_content"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/icon_description"
+        />
+    <TextView
+        android:id="@+id/menuItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/menuIcon"
+        android:layout_centerVertical="true"
+        android:paddingStart="16dp"
+        android:text="Menu Item"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
-</Relative Layout>
+</RelativeLayout>
