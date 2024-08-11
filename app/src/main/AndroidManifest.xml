@@ -12,6 +12,7 @@
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="androidx.wear.activity.ConfirmationActivity"></activity>
     </application>
 
 </manifest>

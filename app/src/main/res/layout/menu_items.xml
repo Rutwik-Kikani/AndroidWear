@@ -18,8 +18,7 @@
         android:layout_toEndOf="@id/menuIcon"
         android:layout_centerVertical="true"
         android:paddingStart="16dp"
-        android:text="Menu Item"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
 </RelativeLayout>
